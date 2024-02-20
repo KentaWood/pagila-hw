@@ -16,4 +16,4 @@ WHERE
 GROUP BY
     s.staff_id, s.first_name, s.last_name
 ORDER BY 
-	sum;
+	s.first_name;
