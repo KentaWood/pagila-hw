@@ -14,4 +14,6 @@ WHERE
     p.payment_date >= '2020-01-01' AND
     p.payment_date < '2020-02-01'
 GROUP BY
-    s.staff_id, s.first_name, s.last_name;
+    s.staff_id, s.first_name, s.last_name
+ORDER BY 
+	s.first_name;
